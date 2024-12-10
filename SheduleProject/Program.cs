@@ -24,8 +24,14 @@ public class Programm
     };
     static void Main(string[] args)
     {
+       
+
+
+
+
         var g = new Graph(Dta, 1);
         g.Dijkstra(g.Peaks.First());
+        
 
         foreach (var x in g.Peaks)
         {
