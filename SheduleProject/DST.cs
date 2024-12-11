@@ -219,7 +219,7 @@ namespace MyDST
         /// <summary>
         /// При применении алгоритма Дейкстры в данное поле будет записана длина кратчайшего пути из стартовой вершины в данную.
         /// </summary>
-        protected double count = -1; // для Дейкстры
+        public double count = -1; // для Дейкстры
         public SortedSet<Route> routestoPeak = new SortedSet<Route>(); // для Дейкстры
         public List<Peak> IncidnetialPeaks;
         public Peak()
